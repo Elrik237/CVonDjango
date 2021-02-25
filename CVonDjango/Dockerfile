@@ -1,7 +1,7 @@
-FROM python:3-onbuild
+FROM python:3.9
 WORKDIR /app
 COPY . .
 
-RUN python manage.py collectstatic
+RUN pip install -r requirements.txt
 
-CMD ["python3", "manage.py"]
+CMD ["python", "manage.py", "runserver"]
