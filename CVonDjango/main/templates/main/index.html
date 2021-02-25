@@ -1,0 +1,34 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <aside><br>
+        <table class="text">
+         <tr>
+            <td>
+                <a href="https://t.me/Elrik237"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://github.com/Elrik237"><i class="fab fa-github"></i> GitHub</a>
+            </td>
+            <td class="rightcol">
+                <a href="{% static 'main/files/JuniorPythonDeveloper.pdf' %}" download=""><i class="fas fa-file-pdf"></i> Скачать CV в PDF</a>
+            </td>
+        </tr>
+        </table>
+    </aside><br>
+
+    <img src="{% static 'main/img/CV.jpg' %}" alt="CV" class="CV">
+</head>
+<body>
+
+</body>
+</html>
