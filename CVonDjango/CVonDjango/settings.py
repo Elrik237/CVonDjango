@@ -15,7 +15,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'http://46.173.214.71',
-    'http://46.173.214.71:8080',
+    'http://46.173.214.71:8000',
 ]
 
 # Application definition
